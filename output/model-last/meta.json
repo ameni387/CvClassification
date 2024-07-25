@@ -1,0 +1,94 @@
+{
+  "lang":"fr",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.7.5,<3.8.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"a6d0fc360",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "CERTIFICATION",
+      "COMPANIES WORKED AT",
+      "DIPLOMAS",
+      "NAME",
+      "PROJECT NAME",
+      "SKILLS",
+      "SPECIALITY",
+      "YEARS OF EXPERIENCE"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.7669172932,
+    "ents_p":0.7816091954,
+    "ents_r":0.7527675277,
+    "ents_per_type":{
+      "NAME":{
+        "p":0.8333333333,
+        "r":0.625,
+        "f":0.7142857143
+      },
+      "SPECIALITY":{
+        "p":0.875,
+        "r":0.7777777778,
+        "f":0.8235294118
+      },
+      "YEARS OF EXPERIENCE":{
+        "p":0.8888888889,
+        "r":0.8888888889,
+        "f":0.8888888889
+      },
+      "SKILLS":{
+        "p":0.8304093567,
+        "r":0.8606060606,
+        "f":0.8452380952
+      },
+      "COMPANIES WORKED AT":{
+        "p":0.9,
+        "r":0.5625,
+        "f":0.6923076923
+      },
+      "PROJECT NAME":{
+        "p":0.5777777778,
+        "r":0.52,
+        "f":0.5473684211
+      },
+      "DIPLOMAS":{
+        "p":0.5454545455,
+        "r":0.5,
+        "f":0.5217391304
+      },
+      "CERTIFICATION":{
+        "p":1.0,
+        "r":0.5,
+        "f":0.6666666667
+      }
+    },
+    "tok2vec_loss":642.6879684305,
+    "ner_loss":324.6766397274
+  }
+}
